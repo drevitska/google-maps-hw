@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,900;1,600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+}
+
+.section {
+  min-height: 100px;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+}
+
+#map {
+  height: 400px;
+  width: 80%;
+  margin: 0 auto;
+}
+.form {
+  margin-bottom: 24px;
+  text-align: center;
+}
+.input-place {
+  margin: 12px;
+}

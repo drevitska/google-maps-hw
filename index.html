@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My maps</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <link type="image/x-icon" rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        My maps
+      </h1>
+
+      <form class="form" id="town">
+        <label class="label" for="start">Откуда</label>
+        <input class="input-place" type="text" name="start" id="start" placeholder="Введите адрес">
+        <label class="label"  for="end">Куда</label>
+        <input class="input-place" type="text" name="finish" id="end" placeholder="Введите адрес">
+        <button type="submit">Проложить маршрут</button>
+      </form>
+      
+      <section class='section' id="map"></section>
+    </div>
+  </section>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlSEJD36TfXsm1NzODVyeKksvRCaCzbCg&callback=initMap&language=en&region=UA"
+    async defer></script>
+  <script src="map.js"></script>
+</body>
+
+</html>
